@@ -104,7 +104,8 @@ img {
 figure {
   display: table;
   max-width: 100%;
-  margin: 25px 0;
+  // margin: 25px 0;
+  margin: auto;
 
   &.left {
     margin-right: auto;
