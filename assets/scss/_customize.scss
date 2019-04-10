@@ -1,0 +1,33 @@
+$dark-primary-color: #FF4500;;
+$dark-sec-primary-color:#FFD700;
+
+$light-primary-color:#66CD00;
+$light-sec-primary-color:#63B8FF;
+
+pre {
+    border-radius: 0;
+}
+
+body {
+    .katex {
+        color:$light-primary-color;
+    }
+    code {
+        color:$light-sec-primary-color;
+    }
+    .logo__cursor {
+        background: $light-sec-primary-color;
+    }
+    &.dark-theme {
+         .logo__cursor {
+            background: $dark-sec-primary-color;
+        }
+        .katex {
+        color:$dark-primary-color;
+        }
+
+        code {
+            color:$dark-sec-primary-color;
+        }
+  }
+}
